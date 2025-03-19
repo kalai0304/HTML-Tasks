@@ -1,0 +1,15 @@
+body {
+  margin: 5% auto;
+  width: 60%;
+  border: 1px solid black;
+}
+h1,
+h2 {
+  text-align: center;
+}
+main {
+  text-align: center;
+}
+audio {
+  margin-bottom: 3%;
+}

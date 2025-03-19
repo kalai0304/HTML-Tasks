@@ -1,0 +1,57 @@
+body {
+  margin: 5% auto;
+  width: 60%;
+  border: 1px solid black;
+}
+.container {
+  display: flex;
+  gap: 10em;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
+h3,
+p,
+h2 {
+  margin: 0;
+}
+p {
+  margin-left: 0;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  /* width: 50%; */
+  margin-left: 4em;
+}
+.left div {
+  display: flex;
+}
+icon {
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.bi {
+  margin-right: 0.9em;
+}
+input,
+textarea {
+  display: block;
+  margin-top: 1em;
+  width: 300px;
+}
+button {
+  text-align: center;
+  margin-top: 1em;
+  font-size: 1em;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+}
+.right {
+  margin-left: 4em;
+  margin-bottom: 1.4em;
+}

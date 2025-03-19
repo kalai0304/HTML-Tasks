@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshop Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Workshop <br />Registration Form</h1>
+        <hr />
+        <form>
+          <fieldset>
+            <legend>Details:</legend>
+            <label for="username">
+              Name:
+              <input type="text" name="name" id="username" required />
+            </label>
+            <label for="email">
+              Email:
+              <input type="email" name="email" id="email" required />
+            </label>
+            <label for="phone">
+              Phone Number:
+              <input type="number" name="phone number" id="phone" required />
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>Session Preference:</legend>
+            <select name="session" id="session">
+              <option value="morning">Morning</option>
+              <option value="afternoon">Afternoon</option>
+            </select>
+          </fieldset>
+          <section class="tandc">
+            <label for="terms-and-conditions">
+              <input
+                type="checkbox"
+                name="terms-and-conditions"
+                id="terms-and-conditions"
+                required
+              />
+              <a href="www.example.com">Terms and Conditions</a>
+            </label>
+          </section>
+          <button type="submit" value="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
